@@ -1,0 +1,12 @@
+Cenário 4: Cadastro de usuário PF no portal Demo Mercafacil
+
+Dado que o cliente já esteja acessado a página de cadastro (https://cadastramento-demo.mercafacil.com/#/cadastro)
+Quando o mesmo insere os dados obrigatórios
+E marca a opção “Clique para ler e aceitar os temos de adesão”
+E clicar no botão “Li e Concordo”
+E Clicar no botão “Cadastrar”
+Então o portal deverá retornar a confirmação do cadastro contendo a mensagem: “PARABÉNS, (nome do usuário!)
+Encontre as ofertas especiais do clube de descontos nas etiquetas de produtos.
+Identifique-se com seu CPF no caixa para receber os descontos.”
+E clicar no botão “Finalizar”
+Então o portal deverá concluir o cadastro e retornar para a página inicial “https://cadastramento-demo.mercafacil.com/#/home”
